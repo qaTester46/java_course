@@ -2,9 +2,11 @@ public class MyFirstProgram {
 
     public static void main(String[] args) {
 
-        Points p = new Points(3, 4, 5, 6);
-        System.out.println("Расстояние между точками с координатами (" + p.x1 + ";" + "" + p.y1 + ") и" +
-                " (" + p.x2 + "" + ";" + p.y2 + ")" + " равно: " + p.distance());
+        Point p1 = new Point(2, 3);
+        Point p2 = new Point(1, 2);
+
+        System.out.println("Расстояние между точкой X(" + p1.x +";"+ p1.y +") и точкой Y(" + p2.x +";"+ p2.y + ") равно: " + p1.distance(p2));
     }
+
 
 }
