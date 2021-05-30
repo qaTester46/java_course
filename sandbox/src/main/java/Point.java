@@ -1,4 +1,4 @@
-public class Point extends java.awt.Point {
+public class Point {
     public double x;
     public double y;
 
